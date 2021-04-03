@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    "@babel/plugin-proposal-function-bind",
+    "@babel/plugin-transform-modules-commonjs",
+    "@babel/plugin-proposal-export-default-from"
+  ],
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ]
+}
