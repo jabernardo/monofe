@@ -10,6 +10,6 @@ const App = () => {
       <Routes />
     </BrowserRouter>
   );
-}
+};
 
 ReactDOM.hydrate(<App />, document.getElementById('root'));

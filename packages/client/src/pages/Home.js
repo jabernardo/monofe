@@ -6,7 +6,7 @@ const Home = () => {
       <div>Home Page</div>
       <button onClick={() => console.log('Boo!')}>Click!</button>
     </>
-  )
+  );
 };
 
 export default Home;

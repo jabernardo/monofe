@@ -9,7 +9,7 @@ const port = 3000;
 app.use(morgan('combined'));
 app.use(express.static('public'));
 
-app.get('/', (req, res) => {
+app.get('*', (req, res) => {
   res.end(renderer(req));
 });
 
