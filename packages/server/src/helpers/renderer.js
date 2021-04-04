@@ -6,7 +6,7 @@ import { Routes } from '@monofe/client';
 
 export default (req) => {
   const content = renderToString(
-    <StaticRouter location={req.path} context={{}}>
+    <StaticRouter location={req.path}>
       <Routes />
     </StaticRouter>
   );
