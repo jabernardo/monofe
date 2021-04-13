@@ -1,14 +1,14 @@
 import React from 'react';
-import Helment from 'react-helmet';
+import Helmet from 'react-helmet';
 
 import './Home.style.css';
 
 const Home = () => {
   return (
     <>
-      <Helment>
+      <Helmet>
         <title>Hello World!</title>
-      </Helment>
+      </Helmet>
       <div>Home Page</div>
       <button onClick={() => console.log('Bosso!')}>Click!</button>
     </>

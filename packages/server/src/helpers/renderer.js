@@ -9,7 +9,7 @@ import path from 'path';
 
 export default (req) => {
   const content = renderToString(
-    <StaticRouter location={req.path} context={{}}>
+    <StaticRouter location={req.path}>
       <Routes />
     </StaticRouter>
   );
