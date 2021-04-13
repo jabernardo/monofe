@@ -4,6 +4,9 @@ import { StaticRouter } from 'react-router-dom';
 
 import { Routes } from '@monofe/client';
 
+import fs from 'fs';
+import path from 'path';
+
 export default (req) => {
   const content = renderToString(
     <StaticRouter location={req.path} context={{}}>
@@ -11,12 +14,10 @@ export default (req) => {
     </StaticRouter>
   );
 
-  return `<!doctype html>
-<html>
-  <body>
-    <div id="root">${content}</div>
-  </body>
-  <script src="bundle.js"></script>
-</html>
-  `;
+  const fileTemplate = fs.readFileSync(path.resolve(__dirname, '../public/index.html'), 'utf8');
+
+  return fileTemplate.replace(
+    '<div id="root"></div>',
+    `<div id="root">${content}</div>`
+  );
 };

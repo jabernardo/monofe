@@ -10,6 +10,18 @@ const config = {
   // root file
   entry: './src/index.js',
 
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: [
+          'isomorphic-style-loader',
+          'css-loader'
+        ],
+      },
+    ]
+  },
+
   // output file
   output: {
     filename: 'index.js',

@@ -4,7 +4,7 @@
   "description": "",
   "main": "./build/index.js",
   "scripts": {
-    "dev": "babel --watch src -d build"
+    "dev": "babel src -d build --copy-files --watch"
   },
   "keywords": [],
   "author": "",
