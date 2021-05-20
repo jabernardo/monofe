@@ -1,8 +1,11 @@
 {
+  "comments": true,
   "plugins": [
+    // "@babel/plugin-syntax-dynamic-import",
     "@babel/plugin-proposal-function-bind",
     "@babel/plugin-transform-modules-commonjs",
-    "@babel/plugin-proposal-export-default-from"
+    "@babel/plugin-proposal-export-default-from",
+    "@loadable/babel-plugin"
   ],
   "presets": [
     "@babel/preset-env",

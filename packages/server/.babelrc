@@ -1,6 +1,9 @@
 {
+  "comments": true,
   "plugins": [
-    "@babel/plugin-proposal-function-bind"
+    "@babel/plugin-proposal-function-bind",
+    // "@babel/plugin-syntax-dynamic-import",
+    "@loadable/babel-plugin"
   ],
   "presets": [
     "@babel/preset-react"

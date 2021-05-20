@@ -4,10 +4,10 @@ import morgan from 'morgan';
 import renderer from './helpers/renderer';
 
 const app = express();
-const port = 80;
+const port = 8000;
 
 app.use(morgan('combined'));
-app.use(express.static('public', { index: false }));
+app.use(express.static('dist', { index: false }));
 
 app.get('*', (req, res) => {
   res.end(renderer(req));

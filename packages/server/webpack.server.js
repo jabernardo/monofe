@@ -28,7 +28,7 @@ const config = {
     path: path.resolve(__dirname, 'build')
   },
 
-  externals: [webpackNodeExternals()]
+  externals: ['@loadable/webpack-plugin', webpackNodeExternals()]
 };
 
 module.exports = merge(baseConfig, config);

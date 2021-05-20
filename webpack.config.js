@@ -7,7 +7,10 @@ module.exports = {
         exclude: /node_modules/,
         options: {
           presets: [
-            '@babel/preset-env'
+            '@babel/preset-env',
+          ],
+          plugins: [
+            '@loadable/babel-plugin',
           ]
         }
       },
