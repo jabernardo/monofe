@@ -24,7 +24,7 @@ const Home = () => {
       <Helmet>
         <title>Hello World!!!</title>
       </Helmet>
-      <div>Home Page</div>
+      <div>Home Page!</div>
       <Button />
     </>
   );

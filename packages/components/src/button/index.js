@@ -1,3 +1,3 @@
 import React from 'react';
 
-export default () => (<button onClick={() => console.log('Bosso!')}>Click!</button>);
+export default () => (<button onClick={() => console.log('Hoy, Pasok!')}>Click!</button>);

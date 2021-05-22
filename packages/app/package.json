@@ -6,7 +6,7 @@
   "scripts": {
     "dev:build": "webpack --mode=development --config webpack.server.js --watch",
     "dev:build-client": "webpack --mode=development --config webpack.client.js --watch",
-    "dev:run": "nodemon --watch build --exec node \"./build/index.js\"",
+    "dev:run": "nodemon --watch build --exec \"node ./build/index.js\" & browser-sync start --proxy localhost:8000 --files ./dist/*",
     "dev": "npm-run-all --parallel dev:*",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
