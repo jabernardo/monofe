@@ -6,7 +6,7 @@
   "scripts": {
     "new-version": "lerna version --conventional-commits --yes",
     "diff": "lerna diff",
-    "dev:run-server": "yarn workspace @monofe/server run dev",
+    "dev:run-app": "yarn workspace @monofe/app run dev",
     "dev:run-client": "yarn workspace @monofe/components run dev",
     "dev": "npm-run-all --parallel dev:*"
   },
