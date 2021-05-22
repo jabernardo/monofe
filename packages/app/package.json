@@ -16,7 +16,7 @@
   "dependencies": {
     "@loadable/component": "^5.15.0",
     "@loadable/server": "^5.15.0",
-    "@monofe/client": "1.0",
+    "@monofe/components": "1.0",
     "express": "^4.17.1",
     "morgan": "^1.10.0",
     "npm-run-all": "^4.1.5",

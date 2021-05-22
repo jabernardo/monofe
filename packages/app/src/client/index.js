@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { loadableReady } from '@loadable/component';
 
-import { Routes } from '@monofe/client';
+import Routes from './Routes';
 
 const App = () => {
   return (

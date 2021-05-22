@@ -10,7 +10,7 @@ const LoadablePlugin = require('@loadable/webpack-plugin');
 
 const config = {
   // root file
-  entry: './src/client.js',
+  entry: './src/client/index.js',
 
   // output file
   output: {

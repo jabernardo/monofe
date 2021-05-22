@@ -1,0 +1,237 @@
+{
+  "hash": "ce6c29e5517bdc08de20",
+  "publicPath": "auto",
+  "outputPath": "/home/sudoaldrich/Codespace/monofe/packages/app/dist",
+  "assetsByChunkName": {
+    "main": [
+      "static/main.d3d61ffe056aae0a770c.css",
+      "static/main.c640.js"
+    ],
+    "home-components": [
+      "static/home-components.a6c7.js"
+    ],
+    "letters-A": [
+      "static/letters-A.4eb67be81173d297138a.css",
+      "static/letters-A.78b7.js"
+    ],
+    "letters-B": [
+      "static/letters-B.fae6.js"
+    ],
+    "letters-C": [
+      "static/letters-C.c41b.js"
+    ],
+    "letters-D": [
+      "static/letters-D.0d09.js"
+    ],
+    "vendor": [
+      "static/vendor.ec18.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "assets by status",
+      "cached": true,
+      "filteredChildren": 11,
+      "size": 1272467
+    }
+  ],
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "vendor",
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "static/vendor.ec18.js"
+        },
+        {
+          "name": "static/main.d3d61ffe056aae0a770c.css"
+        },
+        {
+          "name": "static/main.c640.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {
+        "preload": [
+          {
+            "name": "letters-C",
+            "chunks": [
+              "letters-C"
+            ],
+            "assets": [
+              {
+                "name": "static/letters-C.c41b.js"
+              }
+            ],
+            "filteredAssets": 0,
+            "filteredAuxiliaryAssets": 0
+          }
+        ],
+        "prefetch": [
+          {
+            "name": "letters-D",
+            "chunks": [
+              "letters-D"
+            ],
+            "assets": [
+              {
+                "name": "static/letters-D.0d09.js"
+              }
+            ],
+            "filteredAssets": 0,
+            "filteredAuxiliaryAssets": 0
+          }
+        ]
+      },
+      "childAssets": {
+        "preload": [
+          "static/letters-C.c41b.js"
+        ],
+        "prefetch": [
+          "static/letters-D.0d09.js"
+        ]
+      }
+    },
+    "home-components": {
+      "name": "home-components",
+      "chunks": [
+        "home-components"
+      ],
+      "assets": [
+        {
+          "name": "static/home-components.a6c7.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "letters-A": {
+      "name": "letters-A",
+      "chunks": [
+        "letters-A"
+      ],
+      "assets": [
+        {
+          "name": "static/letters-A.4eb67be81173d297138a.css"
+        },
+        {
+          "name": "static/letters-A.78b7.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "letters-B": {
+      "name": "letters-B",
+      "chunks": [
+        "letters-B"
+      ],
+      "assets": [
+        {
+          "name": "static/letters-B.fae6.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "letters-C": {
+      "name": "letters-C",
+      "chunks": [
+        "letters-C"
+      ],
+      "assets": [
+        {
+          "name": "static/letters-C.c41b.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "letters-D": {
+      "name": "letters-D",
+      "chunks": [
+        "letters-D"
+      ],
+      "assets": [
+        {
+          "name": "static/letters-D.0d09.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "main",
+      "files": [
+        "static/main.d3d61ffe056aae0a770c.css",
+        "static/main.c640.js"
+      ]
+    },
+    {
+      "id": "home-components",
+      "files": [
+        "static/home-components.a6c7.js"
+      ]
+    },
+    {
+      "id": "letters-A",
+      "files": [
+        "static/letters-A.4eb67be81173d297138a.css",
+        "static/letters-A.78b7.js"
+      ]
+    },
+    {
+      "id": "letters-B",
+      "files": [
+        "static/letters-B.fae6.js"
+      ]
+    },
+    {
+      "id": "letters-C",
+      "files": [
+        "static/letters-C.c41b.js"
+      ]
+    },
+    {
+      "id": "letters-D",
+      "files": [
+        "static/letters-D.0d09.js"
+      ]
+    },
+    {
+      "id": "vendor",
+      "files": [
+        "static/vendor.ec18.js"
+      ]
+    }
+  ]
+}

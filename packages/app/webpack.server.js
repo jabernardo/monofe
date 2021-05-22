@@ -2,13 +2,14 @@ const path = require('path');
 const { merge } = require('webpack-merge');
 const baseConfig = require('../../webpack.config');
 const webpackNodeExternals = require('webpack-node-externals');
+const LoadablePlugin = require('@loadable/webpack-plugin');
 
 const config = {
   // bundle for nodejs
   target: 'node',
 
   // root file
-  entry: './src/index.js',
+  entry: './src/server/index.js',
 
   module: {
     rules: [
@@ -21,6 +22,10 @@ const config = {
       },
     ]
   },
+
+  plugins: [
+    new LoadablePlugin()
+  ],
 
   // output file
   output: {
